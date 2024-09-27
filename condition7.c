@@ -2,12 +2,14 @@
 
 int main() {
     // Write C code here
-  float c;
-  printf("entrer le caractere");
-  scanf("%f",&c);
+  char c;
+  printf("entrer le caractere  :");
+  scanf("%c",&c);
 
-if (c <10 ){
+if ( c >=  65 && c <= 90 ){
+
     printf("ce caractere est un majusculle");
+
 }else{
     printf("ce caractere est un muniscule");
 }
