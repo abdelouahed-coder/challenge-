@@ -2,13 +2,16 @@
 
 int main() {
     // Write C code here
-    char name[]= "name";
-    char lastName[]="last name";
-    int age =21;
-    char sexe[]="sexe";
-    char email[]="ema@gmail.com";
+    float b,h,a,p;
+    printf("entrer un  base");
+     scanf("%f", &b );
+    printf("entrer un hauteur");
+     scanf("%f", &h);
+      a=(b*h)/2;
+      p=3*b;
+    printf("aire :%.2f\nperimetre :%.2f",a,p);
 
-    printf("nom : %s\nprénom : %s\nage : %d\nsexe : %s\nadresse email : %s",name, lastName, age, sexe, email);
+
 
     return 0;
 }
