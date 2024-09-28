@@ -1,16 +1,14 @@
 #include <stdio.h>
 
 int main() {
-  int  N , f=1 ,i ;
+  int i=1 , N  ;
     printf ("Entre une Number : ");
     scanf ("%d", &N);
-     for (i=1 ; i<=N ; i++) {
 
-    f*=i;
-     }
-    printf("%d" ,f );
-
-
+  while (i <= 10) {
+    printf("%d x %d = %d\n", N , i , N*i );
+   i ++;
+}
 
     return 0;
 }
