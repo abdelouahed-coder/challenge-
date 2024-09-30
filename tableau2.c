@@ -1,18 +1,15 @@
 #include <stdio.h>
 
 int main() {
-    // Write C code here
-   int i,n;
-    printf("entre d'element");
-     scanf("%d", &n);
-   int nombre[n];
-    for(i = 0 ; i <n ; ++i)
-    {
-     printf("saiser ces element");
-      scanf("%d",&nombre[i]);
- }for(i = 0 ; i <n ; ++i){
-     printf("les enement de tableau%d\n",nombre[i]);
- }
+int n,i,z;
+ printf("entrer un nombre");
+  scanf("%d", &n);
+  for(i = 0; i <= n; i++){
+      z = z+i;
+  }
+      printf("la somme est :%d\n",z);
 
-    return 0;
+
+
+  return 0;
 }
