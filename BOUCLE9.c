@@ -7,7 +7,7 @@ int n,i,z=0;
   for(i = 0; i <= n; i++){
       z = z+i;
   }
-      printf("la somme est :%d\n",z);
+    //  printf("la somme est :%d\n",z);
 
 
 
