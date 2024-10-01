@@ -10,7 +10,7 @@ int main() {
    printf("entrer 2eme nombre :");
     scanf("%d", &N2);
     S = som(N1,N2);
-    printf("la somme est :%d",S);
+    printf("la som est :%d",S);
 
     return 0;
 }
